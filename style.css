@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year 2024</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+        }
+
+        h1 {
+            color: #ff6347;
+            font-size: 50px;
+            text-shadow: 2px 2px 5px #000;
+        }
+
+        .balloon {
+            display: inline-block;
+            margin: 10px;
+            width: 80px;
+            height: 120px;
+            background-color: #ff69b4;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+
+        .balloon:after {
+            content: '';
+            position: absolute;
+            bottom: -20px;
+            left: 50%;
+            width: 5px;
+            height: 40px;
+            background-color: #000;
+            transform: translateX(-50%);
+        }
+
+        .flower {
+            font-size: 24px;
+            color: #ff1493;
+            margin: 20px;
+        }
+
+        .message {
+            font-size: 30px;
+            color: #32cd32;
+            margin-top: 30px;
+        }
+
+        .footer {
+            margin-top: 50px;
+            font-size: 20px;
+            color: #8a2be2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy New Year 2024!</h1>
+    
+    <div>
+        <div class="balloon"></div>
+        <div class="balloon"></div>
+        <div class="balloon"></div>
+    </div>
+    
+    <div class="flower">
+        🌸🌺🌸 Wishing you a year filled with joy, success, and love! 🌺🌸🌺
+    </div>
+    
+    <div class="message">
+        Let's make 2024 unforgettable! 🎉
+    </div>
+
+    <div class="footer">
+        Have a wonderful year ahead! 🎆
+    </div>
+</body>
+</html>
